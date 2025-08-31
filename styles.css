@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.params {
+  margin-bottom: 10px;
+}
+
+.params input {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.tabs {
+  margin-bottom: 10px;
+}
+
+.tab {
+  padding: 8px 12px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  background: #eee;
+  cursor: pointer;
+}
+
+.tab.active {
+  background: #fff;
+  border-bottom: 2px solid #000;
+}
+
+.content {
+  background: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ccc;
+  white-space: pre-wrap;
+}
